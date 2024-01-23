@@ -1,0 +1,100 @@
+/* *{
+    font-family: Poppins,sans-serif;
+} */
+.bannerBack {
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the start of the cross-axis (top) */
+}
+
+.nav-button {
+    width: 100px;
+    background-color: #44ce6f !important;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: 0 2px 25px rgb(0 0 0 / 38%);
+    background-position: -100% 0;
+
+}
+
+.nav-button:hover {
+    background: linear-gradient(to right, #c972c1, #009688);
+    /* Gradient background for sliding effect */
+    background-size: 200% 100%;
+    /* Double the width of the gradient background */
+    transition: background-position 0.5s ease;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    margin-right: 20px;
+    /* Adjust as needed to create space between text and image */
+}
+
+.bannerBack h1 {
+    margin-top: 10rem;
+}
+
+.text-container button {
+    width: 150px;
+    padding: 10px 15px;
+    /* Adjust padding as needed */
+    background-color: #44ce6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Adjust as needed for spacing */
+    box-shadow: 0 2px 25px rgb(0 0 0 / 38%);
+    background-position: -100% 0;
+
+
+}
+
+.text-container button:hover {
+    background: linear-gradient(to right, #c972c1, #009688);
+    /* Gradient background for sliding effect */
+    background-size: 200% 100%;
+    /* Double the width of the gradient background */
+    transition: background-position 0.5s ease;
+}
+
+.square-box {
+    padding: 30px 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+.icon {
+    width: 54px;
+    /* Add units (e.g., px) */
+    height: 54px;
+    /* Add units (e.g., px) */
+    border-radius: 50%;
+    border: 2px solid #44ce6f;
+    /* Specify border-style and color */
+    overflow: hidden;
+    /* Ensure the image is within the circular border */
+}
+
+/* Additional styles to center the image */
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.square-box:hover {
+    transform: translateY(-9px);
+}
+.section-background {
+    background-color: #f7fafd;
+    height: 50vh;
+}
